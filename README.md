@@ -1,4 +1,4 @@
 Rod's DevBook
 ============================
 
-Rod's experience and insights in software development.
+软件开发经验和实践

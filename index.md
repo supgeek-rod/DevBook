@@ -4,22 +4,21 @@ layout: home
 
 hero:
   name: "Rod's DevBook"
-  text: "Rod's experience and insights in software development."
-  tagline: My great project tagline
+  text: "软件开发经验和实践"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 开始阅读
+      link: /README
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 关于我
+      link: /about
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 速查手册
+    details: 看过就忘，捧在手上，快速查阅
+  - title: 全栈图谱
+    details: 从前端/后端，再到数据库及服务器运维
+  - title: 最佳实践
+    details: 实际开发中的最佳实践方案
 ---
 
