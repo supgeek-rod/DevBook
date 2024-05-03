@@ -10,6 +10,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '速查手册', link: '/handbooks/laravel-manual' },
       { text: '全栈图谱', link: '/fullstack/laravel/laravel-db-locking' },
+      { text: '编程思想', link: '/prothinkings/programming-pop-oop-aop' },
       { text: '最佳实践', link: '/practices/linux-new-starter' },
       { text: '关于我', link: '/about' },
     ],
@@ -42,6 +43,14 @@ export default defineConfig({
               { text: '读写分离', link: '/fullstack/mysql/mysql-read-and-write-connections' },
             ]
           }
+        ],
+      },
+      {
+        text: '编程思想',
+        items: [
+          { text: 'POP / OOP / AOP', link: '/prothinkings/programming-pop-oop-aop' },
+          { text: '设计模式之 7 大原则', link: '/prothinkings/the-7-principles-of-design-patterns' },
+          { text: 'MySQL 范式', link: '/prothinkings/mysql-normal-forms' },
         ],
       },
       {
