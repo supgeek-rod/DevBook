@@ -18,6 +18,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```markdown
 ## themes
 
+ZSH_THEME="robbyrussell"
+ZSH_THEME="strug"
+ZSH_THEME="xiong-chiamiov-plus"
+ZSH_THEME="darkblood"
+ZSH_THEME="ys"
+
 ### dev=strug
 https://user-images.githubusercontent.com/49100982/108255755-b828fd00-716d-11eb-8dee-2d981777a2b3.jpg
 
@@ -69,5 +75,5 @@ sudo snap install --classic certbot
 ## Utils
 
 ```bash
-sudo apt install tig ack apache2-utils
-```%
+sudo apt install zsh tig ack apache2-utils
+```
