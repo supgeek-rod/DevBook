@@ -7,6 +7,15 @@ New Ubuntu
 sudo hostnamectl set-hostname prod-btpayments-io
 ```
 
+## timezone
+// TODO
+
+## Utils
+
+```bash
+sudo apt install zsh tig ack apache2-utils htop iotop iftop
+```
+
 ## OhMyZSH
 
 https://ohmyz.sh/
@@ -72,8 +81,3 @@ sudo snap install --classic certbot
 
 ```
 
-## Utils
-
-```bash
-sudo apt install zsh tig ack apache2-utils
-```
