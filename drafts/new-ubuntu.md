@@ -8,12 +8,17 @@ sudo hostnamectl set-hostname prod-btpayments-io
 ```
 
 ## timezone
-// TODO
+```bash
+timedatectl list-timezones
+sudo timedatectl set-timezone Asia/Shanghai
+```
 
 ## Utils
 
 ```bash
-sudo apt install zsh tig ack apache2-utils htop iotop iftop
+sudo apt install -y zsh tig ack
+sudo apt install -y apache2-utils htop iotop iftop
+sudo apt install -y sysstat sysbench
 ```
 
 ## OhMyZSH
@@ -58,8 +63,8 @@ curl https://j.mp/spf13-vim3 -L > spf13-vim.sh && sh spf13-vim.sh
 ## Larave@LNMP
 
 ```bash
-sudo apt install supervisor
-sudo apt install nginx sqlite3 mysql-server redis-server php-fpm composer php-dom php-mysql php-sqlite3
+sudo apt install -y supervisor
+sudo apt install -y nginx sqlite3 mysql-server redis-server php-fpm composer php-dom php-mysql php-sqlite3
 ```
 
 ### MySQL
@@ -78,6 +83,5 @@ https://certbot.eff.org/
 
 ```bash
 sudo snap install --classic certbot
-
 ```
 
