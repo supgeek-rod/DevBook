@@ -83,5 +83,6 @@ https://certbot.eff.org/
 
 ```bash
 sudo snap install --classic certbot
+sudo snap install httpstat
 ```
 
